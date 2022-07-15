@@ -1,5 +1,5 @@
-#include <checker.h>
-#include <BatteryCheck.h>
+#include "checker.h"
+#include "BatteryCheck.h"
 
 int CheckBatteryStatus(float ActualValue, float minimum, float maximum)
 {
