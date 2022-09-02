@@ -57,3 +57,16 @@ Shorten the Semantic distance
 - Functional to express relation between input and output
 - Object oriented to encapsulate state with actions
 - Apect oriented to capture repeating aspects
+
+Extensions implemented
+
+1: Early Warnings
+
+'warning' level with a tolerance of 5% of the upper-limit.
+If SOC is in between 20 and 80, the warning-tolerance is 5% of 80 = 4. 
+20 to 20+4 Warning: Approaching discharge 80-4 to 80 Warning
+Similarly for Temperature and Charge-rate.
+
+2. Accept input in different units
+Conversion of temperature from Fahrenheit to celsius. 
+
